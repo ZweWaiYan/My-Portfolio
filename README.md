@@ -1,8 +1,17 @@
-# React + Vite
+Zwe Wai Yan's Portfolio
+-------------------------
+This is my personal portfolio website. It highlights my projects, and expertise, and offers a way to get in touch with me. The website uses React.js, TailwindCss, and Framer Motion for animations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build it with
+-------------
+.  React.js: A JavaScript library for building user interfaces.
+.  Tailwindcss: A utility-first CSS framework for styling applications.
+.  Framer Motion: A toolkit for implementing animations in React.
 
-Currently, two official plugins are available:
+ScreenShot
+----------
+<img width="946" alt="Portfolio ScreenShot" src="https://github.com/user-attachments/assets/6240060c-4269-4108-b36d-0eda6fb8f7b9" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live URL
+--------
+.  [Zwe_Wai_Yan](https://my-portfolio-eight-mocha-80.vercel.app/)
