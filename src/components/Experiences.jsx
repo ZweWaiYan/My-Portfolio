@@ -34,13 +34,13 @@ const Experiences = () => {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }}
                             className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-2 font-semibold">
+                            <h6 className="mb-7 font-semibold">
                                 {experiences.role} - {" "}
                                 <span className="text-sm text-neutral-100">
                                     {experiences.year}
                                 </span>
                             </h6>
-                            <ul className="ml-10 mb-5 space-y-2">
+                            <ul className="ml-10 mb-5 space-y-5">
                                 {Array.isArray(experiences.description) ? (
                                     experiences.description.map((desc, index) => (
                                         <li key={index}>{desc}</li>
@@ -49,7 +49,7 @@ const Experiences = () => {
                                     <li>No description available.</li>
                                 )}
                             </ul>
-                            <div className="flex flex-wrap gap-2 mt-4">
+                            <div className="flex flex-wrap gap-2 mt-8">
                                 {experiences.skills.map((skill, index) => (
                                     <span
                                         key={index}

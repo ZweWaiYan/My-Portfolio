@@ -166,8 +166,8 @@ const Projects = (blank) => {
                             animate={{ opacity: 1, y: 0 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{
-                                duration: 3,
-                                delay: index * 0.3, // Incremental delay for each card
+                                duration: 1,
+                                delay: index * 0.1, // Incremental delay for each card
                             }}
                         >
                             <div className="w-full h-full cursor-pointer">
