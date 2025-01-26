@@ -4,9 +4,9 @@ This is my personal portfolio website. It highlights my projects, and expertise,
 
 Build it with
 -------------
-.  React.js: A JavaScript library for building user interfaces.
-.  Tailwindcss: A utility-first CSS framework for styling applications.
-.  Framer Motion: A toolkit for implementing animations in React.
+. React.js: A JavaScript library for building user interfaces.
+. Tailwindcss: A utility-first CSS framework for styling applications.
+. Framer Motion: A toolkit for implementing animations in React.
 
 ScreenShot
 ----------
@@ -14,4 +14,4 @@ ScreenShot
 
 Live URL
 --------
-.  [Zwe_Wai_Yan](https://my-portfolio-eight-mocha-80.vercel.app/)
+.   [Zwe_Wai_Yan](https://my-portfolio-eight-mocha-80.vercel.app/)
