@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
@@ -66,7 +67,7 @@ export const PROJECTS = [
     title: "Beautiful coffee info show",
     image: project1,
     description:
-      "This project is an interactive website designed to showcase the ingredients needed to make various types of coffee. It's perfect for coffee enthusiasts or restaurants looking to provide an engaging way to explore coffee recipes.",
+      "An interactive website designed to showcase the ingredients needed to make various types of coffee. It's perfect for coffee enthusiasts or restaurants looking to provide an engaging way to explore coffee recipes.",
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     url: "https://github.com/ZweWaiYan/Coffee",
     liveWeb: "https://coffee-khaki-eight.vercel.app/",
@@ -75,20 +76,29 @@ export const PROJECTS = [
     title: "One time Desert Menu",
     image: project2,
     description:
-      "This project is a one-time interactive dessert menu created for restaurants. Designed with simplicity and elegance, it allows users to select desserts and instantly see the total price, enhancing the dining experience.",
+      "One-time interactive dessert menu created for restaurants. Designed with simplicity and elegance, it allows users to select desserts and instantly see the total price, enhancing the dining experience.",
     skills: ["HTML", "CSS", "JavaScript"],
     url: "https://github.com/ZweWaiYan/Sweet-cafe-menu",
     liveWeb: "https://onetimemenu.vercel.app/",
   },
   {
+    title: "News HomePage",
+    image: project4,
+    description:
+      "News home page with beautiful UI and responsive design.",
+    skills: ["React", "Tailwind", "TypeScript"],
+    url: "https://github.com/ZweWaiYan/News_HomePage",
+    liveWeb: "https://news-home-page-seven.vercel.app/",
+  },  
+  {
     title: "Magway Directory (On Going ... )",
     image: project3,
     description:
-      "An website is for information about famous hotels, restaurants, and pagodas of Magway Township and other by MSH Group.",
+      "Information about famous hotels, restaurants, and pagodas of Magway Township and other by MSH Group.",
     skills: ["React", "Tailwind", "Framer motion"],
     url: "https://github.com/ZweWaiYan/magwaydirectory",
     liveWeb: "",
-  },  
+  },    
 ];
 
 export const CONTACT = {
