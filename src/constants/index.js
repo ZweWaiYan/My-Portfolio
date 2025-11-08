@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
@@ -20,21 +23,106 @@ export const HERO_CONTENT = `I'm passionate about building visually captivating 
 export const ABOUT_TEXT = `I am a dedicated and versatile developer passionate about creating efficient, user-friendly web and mobile applications. My journey began with a deep curiosity about how things work, which led me to explore various technologies through self-study and hands-on experience. Over the past year, I have gained experience working with HTML, CSS, JavaScript, React.js, Node.js, MySQL, MSSQL, and MongoDB. Additionally, I am a self-study in Java and have gained project experience in Kotlin and Flutter through comprehensive training. I thrive in collaborative environments, enjoy solving complex problems, and am always eager to learn and adapt to new challenges. Beyond coding, I stay active, explore the latest technologies, and contribute to open-source projects.`;
 
 export const Skills_ICON = [
-  { component: FaHtml5, color: "text-orange-400", animateDuration: 0.1, name: "HTML", shadow: "hover:shadow-orange-400" },
-  { component: IoLogoCss3, color: "text-cyan-400", animateDuration: 6, name: "CSS", shadow: "hover:shadow-cyan-400" },
-  { component: RiTailwindCssFill, color: "text-cyan-400", animateDuration: 2.5, name: "Tailwind", shadow: "hover:shadow-cyan-400" },
-  { component: SiJavascript, color: "text-yellow-400", animateDuration: 2, name: "JavaScript", shadow: "hover:shadow-yellow-400" },
-  { component: RiReactjsLine, color: "text-cyan-400", animateDuration: 6, name: "React", shadow: "hover:shadow-cyan-400" },
-  { component: DiNodejs, color: "text-green-600", animateDuration: 4, name: "NodeJs", shadow: "hover:shadow-green-600" },
-  { component: SiMongodb, color: "text-green-400", animateDuration: 5.5, name: "MongoDB", shadow: "hover:shadow-green-400" },
-  { component: DiMysql, color: "text-cyan-400", animateDuration: 5.5, name: "MySQL", shadow: "hover:shadow-cyan-400" },
-  { component: FaJava, color: "text-red-400", animateDuration: 3.5, name: "Java", shadow: "hover:shadow-red-400" },
-  { component: IoLogoFirebase, color: "text-orange-400", animateDuration: 4.5, name: "Firebase", shadow: "hover:shadow-orange-400" },
-  { component: FaFlutter, color: "text-cyan-400", animateDuration: 2, name: "Flutter", shadow: "hover:shadow-cyan-400" },
-  { component: FaGithub, color: "text-white", animateDuration: 2.5, name: "Github", shadow: "hover:shadow-white" },
-]
+  {
+    component: FaHtml5,
+    color: "text-orange-400",
+    animateDuration: 0.1,
+    name: "HTML",
+    shadow: "hover:shadow-orange-400",
+  },
+  {
+    component: IoLogoCss3,
+    color: "text-cyan-400",
+    animateDuration: 6,
+    name: "CSS",
+    shadow: "hover:shadow-cyan-400",
+  },
+  {
+    component: RiTailwindCssFill,
+    color: "text-cyan-400",
+    animateDuration: 2.5,
+    name: "Tailwind",
+    shadow: "hover:shadow-cyan-400",
+  },
+  {
+    component: SiJavascript,
+    color: "text-yellow-400",
+    animateDuration: 2,
+    name: "JavaScript",
+    shadow: "hover:shadow-yellow-400",
+  },
+  {
+    component: RiReactjsLine,
+    color: "text-cyan-400",
+    animateDuration: 6,
+    name: "React",
+    shadow: "hover:shadow-cyan-400",
+  },
+  {
+    component: DiNodejs,
+    color: "text-green-600",
+    animateDuration: 4,
+    name: "NodeJs",
+    shadow: "hover:shadow-green-600",
+  },
+  {
+    component: SiMongodb,
+    color: "text-green-400",
+    animateDuration: 5.5,
+    name: "MongoDB",
+    shadow: "hover:shadow-green-400",
+  },
+  {
+    component: DiMysql,
+    color: "text-cyan-400",
+    animateDuration: 5.5,
+    name: "MySQL",
+    shadow: "hover:shadow-cyan-400",
+  },
+  {
+    component: FaJava,
+    color: "text-red-400",
+    animateDuration: 3.5,
+    name: "Java",
+    shadow: "hover:shadow-red-400",
+  },
+  {
+    component: IoLogoFirebase,
+    color: "text-orange-400",
+    animateDuration: 4.5,
+    name: "Firebase",
+    shadow: "hover:shadow-orange-400",
+  },
+  {
+    component: FaFlutter,
+    color: "text-cyan-400",
+    animateDuration: 2,
+    name: "Flutter",
+    shadow: "hover:shadow-cyan-400",
+  },
+  {
+    component: FaGithub,
+    color: "text-white",
+    animateDuration: 2.5,
+    name: "Github",
+    shadow: "hover:shadow-white",
+  },
+];
 
 export const EXPERIENCES = [
+  {
+    year: "2024 to Current",
+    role: "Android & React Developer (Freelancer)",
+    company: "MSH Software House",
+    companyLink: "-",
+    description: [
+      "• Worked directly with the client and designer to refine requirements and turn Figma designs into production. ",
+      "• Developed a responsive mobile app using Flutter and a web dashboard using React + Node.js. ",
+      "• Integrated REST APIs, managed MySQL data, and implemented authentication with role-based access. ",
+      "• Delivered real-time data sync, customer management, and admin analytics features for final deployment. ",
+    ],
+    skills: ["HTML", "CSS", "JS", "React", "Node.js", "Firebase", "Flutter"],
+  },
   {
     year: "2022 to 2023",
     role: "Junior Full Stack Developer (On-Site)",
@@ -47,7 +135,14 @@ export const EXPERIENCES = [
       "• Work with senior developers to manage large, complex design projects for corporate clients.",
       "• Developed, maintained, and enhanced code on production projects, and maintained optimal workflow in both front-end & back-end.",
     ],
-    skills: ["React.js", "C# ASP.Net Core", "MSSQL", "MYSQL", "Firebase", "Github"],
+    skills: [
+      "React.js",
+      "C# ASP.Net Core",
+      "MSSQL",
+      "MYSQL",
+      "Firebase",
+      "Github",
+    ],
   },
   {
     year: "2020",
@@ -84,21 +179,45 @@ export const PROJECTS = [
   {
     title: "News HomePage",
     image: project4,
-    description:
-      "News home page with beautiful UI and responsive design.",
-    skills: ["React", "Tailwind", "TypeScript"],
+    description: "News home page with beautiful UI and responsive design.",
+    skills: ["React", "Tailwind CSS", "TypeScript"],
     url: "https://github.com/ZweWaiYan/News_HomePage",
     liveWeb: "https://news-home-page-seven.vercel.app/",
-  },  
+  },
   {
     title: "Magway Directory (On Going ... )",
     image: project3,
     description:
       "Information about famous hotels, restaurants, and pagodas of Magway Township and other by MSH Group.",
-    skills: ["React", "Tailwind", "Framer motion"],
+    skills: ["React", "Tailwind CSS", "Framer motion"],
     url: "https://github.com/ZweWaiYan/magwaydirectory",
     liveWeb: "",
-  },    
+  },
+  {
+    title: "Shwesu App",
+    image: project5,
+    description:
+      "You can collect gold, buy and sell it on this mobile software.",
+    skills: ["Flutter", "Rest API"],
+    url: "https://github.com/ZweWaiYan/Gold-App",
+    liveWeb: "",
+  },
+  {
+    title: "Order App",
+    image: project6,
+    description: "You can order items for delivery through this mobile app.",
+    skills: ["Flutter", "Rest API"],
+    url: "https://github.com/ZweWaiYan/FoodOrder-App",
+    liveWeb: "",
+  },
+  {
+    title: "Delivery POS",
+    image: project7,
+    description: "Website for delivery POS.",
+    skills: ["React", "Material" , "Node.Js" , "Express" ,"MySQL"],
+    url: "https://github.com/ZweWaiYan/FastSafe-DeliveryPOS",
+    liveWeb: "",
+  },
 ];
 
 export const CONTACT = {

@@ -59,6 +59,13 @@ const Projects = (blank) => {
                                     alt={`Project ${index + 1}`}
                                 />
                             </div>
+                            {/* <div className="w-full h-full cursor-pointer">
+                                <img
+                                    className={`w-full h-full ${index == 4 ?  object-cover :  object- } rounded-lg`}
+                                    src={project.image}
+                                    alt={`Project ${index + 1}`}
+                                />
+                            </div> */}
 
                             <motion.div
                                 initial={{ opacity: 0 }}
