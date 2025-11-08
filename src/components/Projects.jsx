@@ -59,15 +59,44 @@ const Projects = (blank) => {
                                     alt={`Project ${index + 1}`}
                                 />
                             </div>
-                            {/* <div className="w-full h-full cursor-pointer">
-                                <img
-                                    className={`w-full h-full ${index == 4 ?  object-cover :  object- } rounded-lg`}
-                                    src={project.image}
-                                    alt={`Project ${index + 1}`}
-                                />
-                            </div> */}
 
-                            <motion.div
+                            <div className="absolute inset-0 flex flex-col items-center justify-center rounded-lg 
+    bg-black bg-opacity-75 opacity-0 hover:opacity-100 sm:opacity-0 sm:hover:opacity-100 transition-opacity">
+                                <p className="text-lg font-bold mb-3 text-purple-600">{project.title}</p>
+                                <div className="mb-5">
+                                    {project.skills.map((skill, skillIndex) => (
+                                        <span
+                                            key={skillIndex}
+                                            className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-bold text-purple-600"
+                                        >
+                                            {skill}
+                                        </span>
+                                    ))}
+                                </div>
+                                <div className="flex items-center space-x-2">
+                                    <a
+                                        href={project.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-neutral-400 hover:text-neutral-200 text-2xl pr-3"
+                                        aria-label="GitHub"
+                                    >
+                                        <FaGithub />
+                                    </a>
+                                    {project.liveWeb != "" ? <a
+                                        href={project.liveWeb}
+                                        className="text-neutral-400 hover:text-neutral-200 text-2xl"
+                                        aria-label="Share"
+                                    >
+                                        <IoIosLogOut />
+                                    </a>
+                                        :
+                                        ""}
+                                </div>
+                            </div>
+
+
+                            {/* <motion.div
                                 initial={{ opacity: 0 }}
                                 whileHover={{ opacity: 1 }}
                                 className="absolute inset-0 bg-black bg-opacity-75 flex flex-col items-center justify-center rounded-lg"
@@ -103,9 +132,9 @@ const Projects = (blank) => {
                                         <IoIosLogOut />
                                     </a>
                                 </div>
-                            </motion.div>
+                            </motion.div> */}
 
-                        </motion.div>                    
+                        </motion.div>
                     ))}
 
                 {isVisible && (

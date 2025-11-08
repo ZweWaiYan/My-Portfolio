@@ -214,7 +214,7 @@ export const PROJECTS = [
     title: "Delivery POS",
     image: project7,
     description: "Website for delivery POS.",
-    skills: ["React", "Material" , "Node.Js" , "Express" ,"MySQL"],
+    skills: ["React", "Node.Js" , "Express" ,"MySQL"],
     url: "https://github.com/ZweWaiYan/FastSafe-DeliveryPOS",
     liveWeb: "",
   },
